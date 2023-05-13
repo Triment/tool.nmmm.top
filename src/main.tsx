@@ -1,10 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
+import Rsa from "./RSA";
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+export default function Main(){
+  return <div className="h-full mx-auto w-full max-w-4xl flex-1 ">
+    <Rsa/>
+  </div>
+}
